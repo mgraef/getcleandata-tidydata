@@ -28,6 +28,7 @@ File Name  | Purpose
 ------------- | -------------
 run_analysis.R  | Contains all code to create the file tidydata.txt from the source data for upload to Coursera.  Assumes the zipped dataset is in the working directory.
 CodeBook.md  | Contains a description of the source dataset, the variables in tidydata.txt, and summarizes the cleaning/merging of data to build tidydata.txt
+tidydata.txt | Final tidy data set containing averages for each variable by activity and subject id.  This is a Tab-delimited text file.
 README.md  |  This file.
 
 
