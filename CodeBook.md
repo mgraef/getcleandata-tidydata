@@ -8,6 +8,9 @@ Information on the original dataset, including
 * Counts, Attributes, Missing Value information
 * Source
 
+Available [here][odd]
+
+
 Data Collection Description
 --------------------------------------------------------
 >The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each >person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing >a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3>-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video>-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% >of the volunteers was selected for generating the training data and 30% the test data. 
@@ -19,6 +22,9 @@ Data Collection Description
 
 Files used 
 --------------------------------------------------------
+
+[Source][src]
+
 File Name | Description | Size
 --------- | ----------- | -------------
 X_test.txt | Raw test data, no header or row names | 2947 obs. of 561 variables
@@ -115,16 +121,6 @@ No. | Original Variable Name | New Variable Name
  66 | fBodyBodyGyroJerkMag-std() | fbodybodygyrojerkmagstd 
 
 
-
-
-
-
-
-
-
-
-
-
 Variable Descriptions - From features_info.txt in source zip file
 --------------------------------------------------------
 
@@ -184,3 +180,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
+
+
+[odd]:http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[src]:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
