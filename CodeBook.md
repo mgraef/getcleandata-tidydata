@@ -46,6 +46,11 @@ Data Cleaning, combining, manipulation in run_analysis.R
 * Activity labels are added based on the activity numbers, activity numbers are dropped
 * Final tidydata.txt is created which contains mean values for all 66 variables by Subject ID & Activity Description
 
+Description of tidydata.txt
+-------------------------------------------------------
+tidydata.txt has 180 rows and 68 columns.
+Each row contains a single subject identifier, activity label, and 66 variables containing the mean observed value for that subject/activity across the entire train & test data set.
+The 66 variables are listed below along with information on how to interpret the variable name.
 
 Variable List in tidydata.txt
 --------------------------------------------------------
